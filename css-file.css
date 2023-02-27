@@ -1,0 +1,21 @@
+
+th {
+    background-color: green;
+}
+header {
+    background-color: gray;
+}
+#div1{
+    background-color: gray;
+}
+h1 {
+    text-shadow: 2px 2px red;
+
+color: red;
+}
+#h1 nav a{
+    text-align: right;
+}
+#button{
+    text-decoration: none;
+}
