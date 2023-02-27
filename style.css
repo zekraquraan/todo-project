@@ -1,0 +1,51 @@
+header{
+    background-color: gray;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    padding-top: 0px;
+
+}
+footer{
+    background-color: gray;
+}
+button{
+    background-color: blueviolet;
+    
+}
+.c4{
+    text-align: center; 
+}
+a{
+    float: right;
+}
+h2{
+    text-align: center;
+    padding-top: 70px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h5 button a{
+    text-decoration: none;
+    
+}
+button{
+    text-align: center;
+}
+h3 form  {
+    margin-top: 80px;
+}
+#label1{
+    padding-right: 70px;
+}
+nav{
+    margin-left: 90px;
+}
+.sec2{
+    float: left;
+    text-shadow: none;
+    text-decoration:none;
+}
