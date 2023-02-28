@@ -49,3 +49,9 @@ nav{
     text-shadow: none;
     text-decoration:none;
 }
+form{
+    text-align: center;
+}
+.label1{
+    padding-bottom: 70px;
+}
