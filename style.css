@@ -8,50 +8,61 @@ header{
 }
 footer{
     background-color: gray;
+    height: 49px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    min-height: 4dvh;
+   
 }
-button{
+.button{
     background-color: blueviolet;
+    text-align: center;
     
 }
 .c4{
-    text-align: center; 
+    text-align: center;
+    padding-top: 0px;
 }
 a{
-    float: right;
+   
+    text-decoration: none;
+    font-size: 50px;
 }
 h2{
     text-align: center;
-    padding-top: 70px;
+   
 }
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70dvh;
 }
 
-h5 button a{
-    text-decoration: none;
-    
-}
-button{
-    text-align: center;
-}
+
+
 h3 form  {
-    margin-top: 80px;
+    margin-top: 0px;
+    padding-bottom: 40px;
 }
-#label1{
-    padding-right: 70px;
-}
+
 nav{
-    margin-left: 90px;
+    margin-left: 70px;
 }
 .sec2{
     float: left;
     text-shadow: none;
     text-decoration:none;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    align-items: center;
 }
 form{
     text-align: center;
 }
-.label1{
-    padding-bottom: 70px;
-}
+ 
+
