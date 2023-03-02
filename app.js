@@ -9,7 +9,13 @@ console.log(gender);
 if(gender!=="female"&& gender!=="male"){
     alert("please enter male or female")
 }
-
+var age;
+age=prompt("how old are you?")
+if(age<=0){
+    alert("there is something wrong")
+}
+var a= confirm("do you want to skip welcome message")
+if(a==false){
 if(gender=="female"){
     alert("welcome"+"~Ms~"+userName);}
 
@@ -21,9 +27,7 @@ if(gender=="female"){
 alert("welcome"+userName);
 
 }
-var age;
-age=prompt("how old are you?")
-if(age<=0){
-    alert("there is something wrong")
 }
+
+
  
