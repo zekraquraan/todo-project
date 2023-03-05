@@ -47,13 +47,15 @@ const answerArray=[];
 qArray.push("are you a student?(yes/no)");
 qArray.push("are you in a university?(yes/no)");
 qArray.push("is your major IT?(yes/no)");
+console.log(qArray,"hi");
 for (let i =0; i <qArray.length; i++) {
    
     confirmAction(qArray[i]);
 }
-console.log(answerArray);
+for(let i=0;i<answerArray.length;i++){
+console.log(answerArray[i]);
 
-
+}
 
 
 
