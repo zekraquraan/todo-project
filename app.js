@@ -36,7 +36,7 @@ function confirmAction(questions) {
     var response = prompt(questions);
     console.log(response);
     if(response==""){
-        response="invalid"
+        response="invalid";
     }
 answerArray.push(response);
     
