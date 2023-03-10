@@ -44,18 +44,31 @@ answerArray.push(response);
 }
 const qArray=[];
 const answerArray=[];
-qArray.push("are you a student?(yes/no)");
-qArray.push("are you in a university?(yes/no)");
-qArray.push("is your major IT?(yes/no)");
-console.log(qArray,"hi");
-for (let i =0; i <qArray.length; i++) {
-   
-    confirmAction(qArray[i]);
+function askQuestion(question){
+    return prompt(question);
 }
-for(let i=0;i<answerArray.length;i++){
-console.log(answerArray[i]);
-
+function answersSaver(arr){
+    let questionOne= askQuestion("are you a student?(yes/no)");
+    let questionTwo= askQuestion("are you in a university?(yes/no)");
+    let questionThree= askQuestion("is your major IT?(yes/no)");
+    arr.push(questionOne,questionTwo,questionThree);
 }
 
+function answerValdiation(arr){
+for (let i =0; i <arr.length; i++) {
+   if(arr[i]==""){
+    arr[i]="invalid";
+   }
+  
 
+}
+}
+function answerPrinter(arr){
+    for (let i =0; i <arr.length; i++){
+        console.log(arr[i]);
+    }
+}
 
+answersSaver(answerArray);
+answerValdiation(answerArray);
+answerPrinter(answerArray);
